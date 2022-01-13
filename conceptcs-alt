@@ -1,0 +1,46 @@
+computer sciencey. The new
+seven big ideas at the core of computer science — creativity, abstraction, data, algorithms, programming, Internet and impact — that are
+fundamental to computer science, but applicable to analysis in many disciplines.
+
+
+
+40 concepts of computer science
+1. Algorithms and Data Structures: 
+    an algorithm is a step-by-step procedure to resolve any problem. 
+    An algorithm is an effective method expressed as a finite set of well-defined instructions.
+
+a. Big O Notation
+    input does not affect  output O(1), output is directly proportional to input O(n).
+    big O notation helps you to analyze the scalability and efficiency of algorithms.
+    represents the worst-case scenario of an algorithm
+
+b. Sorting Algorithms 
+    Insertion, Selection, Bubble, Shell, Merge, Heap, Quick
+
+c. Recursion
+    reoccuring. Droste effect. A nurse is carrying a tray with a box of cocoa and a cup containing a smaller image of her holding the same thing, which in turn contains an even smaller version of the image, and so on.
+
+d. Big Data
+    Big data describes data sets so large and complex that is impossible to manage with conventional data processing tools.
+
+e. Data Structures
+    Array, Tree, Stack, Queue, Graph, Hash Table, Linked List, Heap
+
+2. Artificial Intelligence
+
+a. Greedy Algorithm
+    taking the first simple way that comes to mind instead of analyzing all possible outcomes first.
+
+b. Hill Climbing 
+    The hill climbing algorithm attempts to find a better solution by generating a neighboring solution. 
+    Each neighboring solution is generated based on the best solution so far, with a single element modified.
+    - random-restart hill climbing
+
+c. Simulated Annealing
+    careful climbing, proper strategies
+
+d. Dynamic Programming
+    memoization (yes memoization not memorization), a top-down approach in dynamic programming, which store the results of previous computations for future use.
+
+e. Machine Learning
+
