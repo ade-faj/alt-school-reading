@@ -15,3 +15,19 @@ Cold War - Out of fear that the Soviets could destroy America's telephone system
 M.I.T. scientist J.C.R. Licklider came up with a solution in 1962: an "intergalactic computer network" that would allow for communication on a global scale - 
 in order to make it happen, they came up with a new technology: packet switching.
     like the nation's telephone system -- relied on analog, circuit-switching technology
+    uses IP address: a unique, numerical label that distinguishes one host from another.
+    TCP is responsible for dividing data into packets at one end of a transmission and reassembling those packets at the other end.
+
+Modern TCP/IP networks use four distinct layers in order to transmit data, and that data always moves from one layer to the next.
+
+First, there's the application layer, which is responsible for interfacing with computer applications such as web browsers and email clients.
+Second, there's the transport layer. This layer is where the Transmission Control Protocol (TCP) goes to work dividing data into packets (and, on the receiving end, it reassembles that data).
+Third, we have the internet layer, where the Internet Protocol (IP) assigns address information and determines the route the data will take.
+Finally, we have the network layer, wherein physical hardware actually carries the data via wire, fiber, radio etc.
+
+software engineer Tim Berners-Lee, who first proposed the concept of a World Wide Web in 1989. By the end of 1990, he had successfully launched the first web page.
+
+the key ingredients of the World Wide Web:
+- HyperText Markup Language (HTML): This is the standard protocol for publishing content on the web. It's used to format text and multimedia documents as well as link between documents.
+- Uniform Resource Identifier (URI): Just like every computer on the internet gets a unique identifier in the form of an IP address, every resource on the World Wide Web gets a unique identifier in the form of a URI. The most common type of URI is the Uniform Resource Locator, or URL (also known as a "web address"). 
+- HyperText Transfer Protocol (HTTP): HTTP is responsible for requesting and transmitting web pages. When you enter a URL into a web browser, you're actually initiating a HTTP command to go find and retrieve the web page specified by that URL. In relation to a TCP/IP network, HTTP is part of the application layer, as specific applications -- namely, web browsers and web servers -- use HTTP to communicate with one another.
