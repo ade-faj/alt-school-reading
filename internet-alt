@@ -22,7 +22,7 @@ Modern TCP/IP networks use four distinct layers in order to transmit data, and t
 
 First, there's the application layer, which is responsible for interfacing with computer applications such as web browsers and email clients.
 Second, there's the transport layer. This layer is where the Transmission Control Protocol (TCP) goes to work dividing data into packets (and, on the receiving end, it reassembles that data).
-Third, we have the internet layer, where the Internet Protocol (IP) assigns address information and determines the route the data will take.
+Third, we have the internet layer, where the Internet Protocol (IP) assigns address information and determines the route the data will take - Internet's addressing system
 Finally, we have the network layer, wherein physical hardware actually carries the data via wire, fiber, radio etc.
 
 software engineer Tim Berners-Lee, who first proposed the concept of a World Wide Web in 1989. By the end of 1990, he had successfully launched the first web page.
@@ -31,3 +31,50 @@ the key ingredients of the World Wide Web:
 - HyperText Markup Language (HTML): This is the standard protocol for publishing content on the web. It's used to format text and multimedia documents as well as link between documents.
 - Uniform Resource Identifier (URI): Just like every computer on the internet gets a unique identifier in the form of an IP address, every resource on the World Wide Web gets a unique identifier in the form of a URI. The most common type of URI is the Uniform Resource Locator, or URL (also known as a "web address"). 
 - HyperText Transfer Protocol (HTTP): HTTP is responsible for requesting and transmitting web pages. When you enter a URL into a web browser, you're actually initiating a HTTP command to go find and retrieve the web page specified by that URL. In relation to a TCP/IP network, HTTP is part of the application layer, as specific applications -- namely, web browsers and web servers -- use HTTP to communicate with one another.
+
+Machines that hold ordinary documents are called file servers; ones that hold people's mail are called mail servers; and the ones that hold Web pages are Web servers.
+A computer that gets information from a server is called a client. When your computer connects over the Internet to a mail server at your ISP (Internet Service Provider) so you can read your messages, your computer is the client and the ISP computer is the server.
+When two computers on the Internet swap information back and forth on a more-or-less equal basis, they are known as peers. If you use an instant messaging program to chat to a friend, and you start swapping party photos back and forth, you're taking part in what's called peer-to-peer (P2P) communication. In P2P, the machines involved sometimes act as clients and sometimes as servers
+the Internet is also made up of intermediate computers called routers, whose job is really just to make connections between different systems
+ DNS (Domain Name System) that enables a computer to look up the IP address for any given website.
+
+ HISTORY OF THE INTERNET
+
+1844: Samuel Morse transmits the first electric telegraph message, eventually making it possible for people to send messages around the world in a matter of minutes.
+1876: Alexander Graham Bell (and various rivals) develop the telephone.
+1940: George Stibitz accesses a computer in New York using a teletype (remote terminal) in New Hampshire, connected over a telephone line.
+1945: Vannevar Bush, a US government scientist, publishes a paper called As We May Think, anticipating the development of the World Wide Web by half a century.
+1958: Modern modems are developed at Bell Labs. Within a few years, AT&T and Bell begin selling them commercially for use on the public telephone system.
+
+1960 - Preparing for a global network
+1964: Paul Baran, a researcher at RAND, invents the basic concept of computers communicating by sending "message blocks" (small packets of data); Welsh physicist Donald Davies has a very similar idea and coins the name "packet switching," which sticks.
+1963: J.C.R. Licklider envisages a network that can link people and user-friendly computers together.
+1964: Larry Roberts, a US computer scientist, experiments with connecting computers over long distances.
+1960s: Ted Nelson invents hypertext, a way of linking together separate documents that eventually becomes a key part of the World Wide Web.
+1966: Inspired by the work of Licklider, Bob Taylor of the US government's Advanced Research Projects Agency (ARPA) hires Larry Roberts to begin developing a national computer network.
+1969: The ARPANET computer network is launched, initially linking together four scientific institutions in California and Utah.
+
+1970 - The modern Internet appears
+1971: Ray Tomlinson sends the first email, introducing the @ sign as a way of separating a user's name from the name of the computer where their mail is stored.
+1973: Bob Metcalfe invents Ethernet, a convenient way of linking computers and peripherals (things like printers) on a local network.
+1974: Vinton Cerf and Bob Kahn write an influential paper describing how computers linked on a network they called an "internet" could send messages via packet switching, using a protocol (set of formal rules) called TCP (Transmission Control Protocol).
+1978: TCP is improved by adding the concept of computer addresses (Internet Protocol or IP addresses) to which Internet traffic can be routed. This lays the foundation of TCP/IP, the basis of the modern Internet.
+1978: Ward Christensen sets up Computerized Bulletin Board System (a forerunner of topic-based Internet forums, groups, and chat rooms) so computer hobbyists can swap information.
+
+1980s: The Internet gives birth to the Web
+1983: TCP/IP is officially adopted as the standard way in which Internet computers will communicate.
+1982–1984: DNS (Domain Name System) is developed, allowing people to refer to unfriendly IP addresses (12.34.56.78) with friendly and memorable names (like google.com).
+1986: The US National Science Foundation (NSF) creates its own network, NSFnet, allowing universities to piggyback onto the ARPANET's growing infrastructure.
+1988: Finnish computer scientist Jarkko Oikarinen invents IRC (Internet Relay Chat), which allows people to create "rooms" where they can talk about topics in real-time with like-minded online friends.
+1989: The Peapod grocery store pioneers online grocery shopping and e-commerce.
+1989: Tim Berners-Lee invents the World Wide Web at CERN, the European particle physics laboratory in Switzerland. It owes a considerable debt to the earlier work of Ted Nelson and Vannevar Bush.
+
+1990s: The Web takes off
+1993: Marc Andreessen writes Mosaic, the first user-friendly web browser, which later evolves into Netscape and Mozilla.
+1993: Oliver McBryan develops the World Wide Web Worm, one of the first search engines.
+1994: People soon find they need help navigating the fast-growing World Wide Web. Brian Pinkerton writes WebCrawler, a more sophisticated search engine and Jerry Yang and David Filo launch Yahoo!, a directory of websites organized in an easy-to-use, tree-like hierarchy.
+1995: E-commerce properly begins when Jeff Bezos founds Amazon.com and Pierre Omidyar sets up eBay.
+1996: ICQ becomes the first user-friendly instant messaging (IM) system on the Internet.
+1997: Jorn Barger publishes the first blog (web-log).
+1998: Larry Page and Sergey Brin develop a search engine called BackRub that they quickly decide to rename Google.
+1999: Kevin Ashton conceives the idea that everyday objects, and not just computers, could be part of the Internet. This idea is now known as the Internet of Things.
