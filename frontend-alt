@@ -1,0 +1,5 @@
+Within the context of web development, front-end developers generally tend to work on the user-facing portions of a website or app. They generally spend their time working with client-side technologies that make up a website, such as HTML, JavaScript, and CSS.
+
+Back-end developers tend to work with server-side technologies that power the site’s functionality.
+
+The two roles are closely related in that they must generally work together to create a fully functioning website. The split itself comes from how the web is architected at a fundamental level, where the client-side is generally referred to as the browser, and the server-side is the technology stack that receives requests and generates responses.
